@@ -2,8 +2,9 @@ package handlers;
 
 import com.sun.net.httpserver.HttpExchange;
 
-public class PutCommand implements HandlerMethod {
-    public void execute(HttpExchange exchange) {
+public class PutHandler implements HandlerMethod {
+    public String handle(HttpExchange exchange) {
+        return null;
 
     }
 }

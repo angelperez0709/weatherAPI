@@ -2,6 +2,6 @@ package handlers;
 
 import com.sun.net.httpserver.HttpExchange;
 
-public interface HttpCommand {
-    void execute(HttpExchange httpExchange);
+public interface HandlerMethod {
+    String handle(HttpExchange httpExchange);
 }

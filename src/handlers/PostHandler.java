@@ -2,8 +2,8 @@ package handlers;
 
 import com.sun.net.httpserver.HttpExchange;
 
-public class PostCommand implements HandlerMethod {
-    public void execute(HttpExchange exchange) {
-
+public class PostHandler extends ReaderHandler implements HandlerMethod {
+    public String handle(HttpExchange exchange) {
+        return null;
     }
 }
